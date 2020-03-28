@@ -29,3 +29,11 @@ input:hover {
     width : 60% ;
     cursor: pointer;
 }
+
+#userP, #emailP, #passwordP, #numberP, #cardP{
+ visibility: hidden;
+}
+
+ 
+
+

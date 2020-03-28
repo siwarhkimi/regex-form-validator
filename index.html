@@ -10,22 +10,22 @@
 <!--
    username
 - email
-- password
+- password   
 - phoneNumber
 - cardNumber
 -->
 
 <form>
   <input type="text" placeholder="User name" id="userName">
-  <p>must be alphanumeric and contain 5-12 characters ex: walid123</p>
+  <p  id = "userP" >must be alphanumeric and contain 5-12 characters ex: walid123</p>
   <input type="email" placeholder="Enter your e-mail" id="email">
-  <p>Email must be a valid address, e.g. me@mydomain.com</p>
+  <p id="emailP">Email must be a valid address, e.g. me@mydomain.com</p>
   <input type="password" placeholder="enter your password" id="password">
-  <p>must be alphanumeric contain 5-12 charracters, must have uppercase and lowercase ex : SiWar123 </p>
+  <p id="passwordP">must be alphanumeric contain 5-12 charracters, must have uppercase and lowercase ex : SiWar123 </p>
   <input type="number" placeholder= "enter your number" id="phoneNumber">
-  <p>must be a valid Tunisa number(13 digit) ex :00216214247</p>
-  <input type="number" placeholder= "enter your card number" id="cardNumber">
-  <p>must be numeric (6-digit) between every two digit (-) ex: 12-35-89</p>
+  <p id="numberP">must be a valid Tunisa number(13 digit) ex :00216214247</p>
+  <input type="text" placeholder= "enter your card number" id="cardNumber">
+  <p id="cardP">must be numeric (6-digit) between every two digit (-) ex: 12-35-89</p>
 </form>
     <script type="text/javascript" src="validation.js"></script>
   </body>
