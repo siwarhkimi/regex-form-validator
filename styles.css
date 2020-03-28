@@ -1,0 +1,31 @@
+
+input{
+    align-self: center;
+    display: block;
+    width: 60%;
+    padding: 10px;
+    border: solid lightgray ;
+    border-radius: 5px ;
+    font-family: sans-serif;
+    
+}
+form{
+    margin-left: 300px;
+    
+}
+p{
+    color: rgb(71, 69, 69);
+    margin-right: 200px;
+    font-size: small;
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: initial;
+}
+
+input:hover {
+    padding: 15px 20px;
+    width : 60% ;
+    cursor: pointer;
+}
